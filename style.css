@@ -1022,62 +1022,89 @@ label {
     }
 }
 /* =========================
-   CASES SIZE FIX +40%
+   MOBILE CASES — ONE COLUMN
 ========================= */
 
 @media (max-width: 768px) {
-    .vertical-cases-grid {
-        grid-template-columns: repeat(3, 130px);
-        gap: 12px;
+    .page-cases .page-scroll {
+        padding: 118px 18px 150px;
     }
 
+    .cases-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .cases-zone {
+        margin-bottom: 64px;
+    }
+
+    .cases-zone-top {
+        margin-bottom: 20px;
+    }
+
+    .cases-zone-title {
+        font-size: 20px;
+        line-height: 1;
+        letter-spacing: -0.04em;
+    }
+
+    .vertical-cases-grid,
     .horizontal-cases-grid {
-        grid-template-columns: repeat(2, 208px);
-        gap: 12px;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 24px;
+    }
+
+    .vertical-cases-grid .case-card {
+        width: min(82vw, 340px);
+    }
+
+    .horizontal-cases-grid .case-card {
+        width: 100%;
+        max-width: 520px;
     }
 
     .case-card {
-        padding: 5px;
-        border-radius: 12px;
+        padding: 6px;
+        border-radius: 14px;
     }
 
     .case-preview,
     .case-youtube-frame {
-        border-radius: 8px;
+        width: 100%;
+        border-radius: 9px;
     }
 
     .case-play-button {
-        width: 56px;
-        height: 56px;
+        width: 58px;
+        height: 58px;
     }
 
     .case-play-button::before {
-        border-left-width: 13px;
+        border-left-width: 14px;
         border-top-width: 8px;
         border-bottom-width: 8px;
     }
 }
 
 @media (max-width: 480px) {
-    .vertical-cases-grid {
-        grid-template-columns: repeat(3, 120px);
-        gap: 10px;
+    .page-cases .page-scroll {
+        padding-left: 14px;
+        padding-right: 14px;
     }
 
+    .vertical-cases-grid .case-card {
+        width: min(86vw, 330px);
+    }
+
+    .horizontal-cases-grid .case-card {
+        width: 100%;
+    }
+
+    .vertical-cases-grid,
     .horizontal-cases-grid {
-        grid-template-columns: repeat(2, 194px);
-        gap: 10px;
-    }
-}
-
-@media (max-width: 360px) {
-    .vertical-cases-grid {
-        grid-template-columns: repeat(3, 102px);
-        gap: 8px;
-    }
-
-    .horizontal-cases-grid {
-        grid-template-columns: repeat(2, 158px);
-        gap: 8px;
+        gap: 20px;
     }
 }
