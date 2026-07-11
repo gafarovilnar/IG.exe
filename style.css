@@ -1108,3 +1108,52 @@ label {
         gap: 20px;
     }
 }
+/* =========================
+   SERVICES SCROLL FIX
+========================= */
+
+.page-services .page-scroll {
+    padding: 96px 40px 150px !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+.services-container {
+    height: auto !important;
+    min-height: 100% !important;
+    overflow: visible !important;
+}
+
+.service-panel {
+    height: auto !important;
+    min-height: calc(100vh - 96px) !important;
+    min-height: calc(100dvh - 96px) !important;
+    overflow: visible !important;
+}
+
+@media (max-width: 768px) {
+    .page-services .page-scroll {
+        padding: 96px 18px 150px !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+    }
+
+    .services-container {
+        height: auto !important;
+        min-height: 100% !important;
+        overflow: visible !important;
+    }
+
+    .service-panel {
+        height: auto !important;
+        min-height: calc(100vh - 96px) !important;
+        min-height: calc(100dvh - 96px) !important;
+        overflow: visible !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-services .page-scroll {
+        padding: 96px 12px 150px !important;
+    }
+}
