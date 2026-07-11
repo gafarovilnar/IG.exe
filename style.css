@@ -656,6 +656,10 @@ label {
     display: inline-block;
     margin-left: 0.1em;
 }
+.letter-l {
+    display: inline-block;
+    margin-left: 0.08em;
+}
 
 /* =========================
    ADAPTIVE
