@@ -15,19 +15,27 @@
 <input class="page-radio" type="radio" name="page" id="page-services">
 
 <header class="site-header">
-    <nav class="site-nav" aria-label="Основная навигация">
+    <nav
+        class="site-nav"
+        aria-label="Основная навигация"
+        data-i18n-aria-label="a11y.mainNav"
+    >
         <label class="nav-link nav-about" for="page-about" data-i18n="nav.about">ОБО МНЕ</label>
         <label class="nav-link nav-cases" for="page-cases" data-i18n="nav.cases">КЕЙСЫ</label>
         <label class="nav-link nav-services" for="page-services" data-i18n="nav.services">УСЛУГИ</label>
     </nav>
 
-    <div class="language-switch" aria-label="Переключение языка">
+    <div
+        class="language-switch"
+        aria-label="Переключение языка"
+        data-i18n-aria-label="a11y.languageSwitch"
+    >
         <button class="language-item is-active" type="button" data-lang="ru">RU</button>
         <button class="language-item" type="button" data-lang="en">EN</button>
     </div>
 </header>
 
-<a class="floating-contact-button" href="https://t.me/foursixsixninetwo" target="_blank" rel="noopener noreferrer" data-i18n-html="contact.button">
+<a class="floating-contact-button" href="https://t.me/gafarovilnar" target="_blank" rel="noopener noreferrer" data-i18n-html="contact.button">
     ОБСУДИТЬ<br>
     ПРОЕКТ
 </a>
@@ -78,7 +86,7 @@
 
                 <div class="about-socials">
 
-                    <a href="https://t.me/foursixsixninetwo"
+                    <a href="https://t.me/gafarovilnar"
                        target="_blank"
                        rel="noopener noreferrer"
                        class="about-social-link telegram-link"
@@ -134,196 +142,670 @@
         </div>
     </div>
 </section>
-    <!-- КЕЙСЫ -->
-    <section class="page page-cases">
-        <div class="page-scroll">
-            <div class="cases-container">
+<!-- КЕЙСЫ -->
+<section class="page page-cases">
+    <div class="page-scroll">
+        <div class="cases-container">
 
-                <div class="cases-zone">
-                    <div class="cases-zone-top">
-                        <h2 class="cases-zone-title" data-i18n="cases.vertical">Вертикальные ролики</h2>
-                    </div>
+            <!-- РЕАЛЬНЫЕ КЕЙСЫ -->
+            <div class="cases-zone">
 
-                    <div class="vertical-cases-grid">
-
-                  xq      <article class="case-card">
-                            <button
-                                class="case-preview"
-                                type="button"
-                                data-video="https://www.youtube-nocookie.com/embed/emIAJE8YChE"
-                                aria-label="Открыть вертикальный ролик 1"
-                            >
-                                <img src="Photos/preview1.jpg" alt="Превью вертикального ролика 1">
-                                <span class="case-overlay"></span>
-                                <span class="case-play-button"></span>
-                            </button>
-                        </article>
-
-                        <article class="case-card">
-                            <button
-                                class="case-preview"
-                                type="button"
-                                data-video="https://www.youtube-nocookie.com/embed/kuzPZWIKn70"
-                                aria-label="Открыть вертикальный ролик 2"
-                            >
-                                <img src="Photos/preview2.jpg" alt="Превью вертикального ролика 2">
-                                <span class="case-overlay"></span>
-                                <span class="case-play-button"></span>
-                            </button>
-                        </article>
-
-                        <article class="case-card">
-                            <button
-                                class="case-preview"
-                                type="button"
-                                data-video="https://www.youtube-nocookie.com/embed/0koGvIRwBpc"
-                                aria-label="Открыть вертикальный ролик 3"
-                            >
-                                <img src="Photos/preview3.jpg" alt="Превью вертикального ролика 3">
-                                <span class="case-overlay"></span>
-                                <span class="case-play-button"></span>
-                            </button>
-                        </article>
-
-                    </div>
+                <div class="cases-zone-top">
+                    <h2 class="cases-zone-title" data-i18n="cases.realTitle">
+                        Реальные кейсы
+                    </h2>
                 </div>
 
-                <div class="cases-zone">
-                    <div class="cases-zone-top">
-                        <h2 class="cases-zone-title" data-i18n="cases.horizontal">Горизонтальные ролики</h2>
-                    </div>
+                <div class="case-studies-grid">
 
-                    <div class="horizontal-cases-grid">
+                    <!-- =====================================
+                         КЕЙС 1 — VROOM.CLUB
+                    ====================================== -->
+                    <article class="case-study-card">
 
-                        <article class="case-card">
-                            <button
-                                class="case-preview"
-                                type="button"
-                               data-video="https://www.youtube-nocookie.com/embed/wWQxrIc9wo0"
-                                aria-label="Открыть горизонтальный ролик 1"
-                            >
-                                <img src="Photos/preview4.jpg" alt="Превью горизонтального ролика 1">
-                                <span class="case-overlay"></span>
-                                <span class="case-play-button"></span>
-                            </button>
-                        </article>
+                        <header class="case-study-header">
+                            <span class="case-study-tag" data-i18n="cases.autoTag">
+                                АВТО • REELS
+                            </span>
 
-                        <article class="case-card">
-                            <button
-                                class="case-preview"
-                                type="button"
-                                data-video="https://www.youtube-nocookie.com/embed/zUAjQjTRF94"
-                                aria-label="Открыть горизонтальный ролик 2"
-                            >
-                                <img src="Photos/preview5.jpg" alt="Превью горизонтального ролика 2">
-                                <span class="case-overlay"></span>
-                                <span class="case-play-button"></span>
-                            </button>
-                        </article>
+                            <div class="case-client-row">
+                                <h3 class="case-study-title">
+                                    <a
+                                        class="case-client-link"
+                                        href="https://www.instagram.com/vroom.club/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Открыть профиль vroom.club в Instagram"
+                                        data-i18n-aria-label="cases.vroom.profileLabel"
+                                    >
+                                        <span>vroom.club</span>
+                                        <span class="case-client-arrow" aria-hidden="true">↗</span>
+                                    </a>
+                                </h3>
 
-                        <article class="case-card">
-                            <button
-                                class="case-preview"
-                                type="button"
-                                data-video="https://www.youtube-nocookie.com/embed/k13Yb0FkB9Y"
-                                aria-label="Открыть горизонтальный ролик 3"
-                            >
-                                <img src="Photos/preview6.jpg" alt="Превью горизонтального ролика 3">
-                                <span class="case-overlay"></span>
-                                <span class="case-play-button"></span>
-                            </button>
-                        </article>
+                                <span class="case-followers" data-i18n="cases.vroom.followers">
+                                    47К подписчиков
+                                </span>
+                            </div>
+                        </header>
 
-                    </div>
-                </div>
+                        <div class="case-study-body">
 
-            </div>
+                            <div class="case-study-media case-study-media--vertical">
+
+                                <span class="case-example-label" data-i18n="cases.vroom.example">
+                                    Пример одного из 20 роликов
+                                </span>
+
+                                <button
+                                    class="case-preview"
+                                    type="button"
+                                    data-video="https://www.youtube-nocookie.com/embed/19NyJIuEJlg"
+                                    aria-label="Открыть пример ролика vroom.club"
+                                    data-i18n-aria-label="cases.vroom.videoLabel"
+                                >
+                                    <img
+                                        src="Photos/preview1.jpg"
+                                        alt="Пример ролика для vroom.club"
+                                        data-i18n-alt="cases.vroom.imageAlt"
+                                    >
+
+                                    <span class="case-overlay"></span>
+                                    <span class="case-play-button"></span>
+                                </button>
+
+                            </div>
+
+                            <div class="case-study-content">
+
+                                <p class="case-study-description" data-i18n="cases.vroom.description">
+                                    Серия из 20 роликов для автомобильного проекта.
+                                    Полностью выполнил монтаж под ключ: графику,
+                                    подбор музыки, саунд-дизайн и финальное оформление.
+                                </p>
+
+                                <div class="case-study-meta">
+                                    <span data-i18n="cases.meta.20videos">20 роликов</span>
+                                    <span data-i18n="cases.meta.month">1 месяц работы</span>
+                                    <span data-i18n="cases.meta.turnkey">Монтаж под ключ</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </article>
+
+
+                    <!-- =====================================
+     КЕЙС 2 — BILL_AVTO
+====================================== -->
+<article class="case-study-card">
+
+    <header class="case-study-header">
+        <span class="case-study-tag" data-i18n="cases.autoTag">
+            АВТО • REELS
+        </span>
+
+        <div class="case-client-row">
+            <h3 class="case-study-title">
+                <a
+                    class="case-client-link"
+                    href="https://www.instagram.com/bill_avto/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Открыть профиль bill_avto в Instagram"
+                    data-i18n-aria-label="cases.bill.profileLabel"
+                >
+                    <span>bill_avto</span>
+                    <span class="case-client-arrow" aria-hidden="true">↗</span>
+                </a>
+            </h3>
+
+            <span class="case-followers" data-i18n="cases.bill.followers">
+                11К подписчиков
+            </span>
         </div>
-    </section>
+    </header>
+
+    <div class="case-study-body">
+
+        <div class="case-study-media case-study-media--vertical">
+
+            <span class="case-example-label" data-i18n="cases.bill.example">
+                Пример одного из 10 роликов
+            </span>
+
+            <button
+                class="case-preview"
+                type="button"
+                data-video="https://www.youtube-nocookie.com/embed/S-77IgasnM8"
+                aria-label="Открыть пример ролика bill_avto"
+                data-i18n-aria-label="cases.bill.videoLabel"
+            >
+                <img
+                    src="Photos/preview2.jpg"
+                    alt="Пример ролика для bill_avto"
+                    data-i18n-alt="cases.bill.imageAlt"
+                >
+
+                <span class="case-overlay"></span>
+                <span class="case-play-button"></span>
+            </button>
+
+        </div>
+
+        <div class="case-study-content">
+
+            <p class="case-study-description" data-i18n="cases.bill.description">
+                Серия из 10 Reels для автомобильного проекта.
+                Полностью выполнил монтаж под ключ: от сборки
+                роликов и графики до подбора музыки и саунд-дизайна.
+            </p>
+
+            <div class="case-study-meta">
+                <span data-i18n="cases.meta.10videos">10 роликов</span>
+
+                <!-- Здесь позже укажем срок -->
+                <span data-i18n="cases.meta.week">1 неделя работы</span>
+
+                <span data-i18n="cases.meta.turnkey">Монтаж под ключ</span>
+            </div>
+
+        </div>
+
+    </div>
+</article>
+
+                    <!-- =====================================
+     КЕЙС 3 — AUTOHUBKZN
+====================================== -->
+<article class="case-study-card">
+
+    <header class="case-study-header">
+        <span class="case-study-tag" data-i18n="cases.autoTag">
+            АВТО • REELS
+        </span>
+
+        <div class="case-client-row">
+            <h3 class="case-study-title">
+                <a
+                    class="case-client-link"
+                    href="https://www.instagram.com/autohubkzn/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Открыть профиль autohubkzn в Instagram"
+                    data-i18n-aria-label="cases.autohub.profileLabel"
+                >
+                    <span>autohubkzn</span>
+                    <span class="case-client-arrow" aria-hidden="true">↗</span>
+                </a>
+            </h3>
+
+            <span class="case-followers" data-i18n="cases.autohub.followers">
+                7К подписчиков
+            </span>
+        </div>
+    </header>
+
+    <div class="case-study-body">
+
+        <div class="case-study-media case-study-media--vertical">
+
+            <span class="case-example-label" data-i18n="cases.autohub.example">
+                Пример одного из 10 роликов
+            </span>
+
+            <button
+                class="case-preview"
+                type="button"
+                data-video="https://www.youtube-nocookie.com/embed/Q_S1aGPpMHQ"
+                aria-label="Открыть пример ролика autohubkzn"
+                data-i18n-aria-label="cases.autohub.videoLabel"
+            >
+                <img
+                    src="Photos/preview3.jpg"
+                    alt="Пример ролика для autohubkzn"
+                    data-i18n-alt="cases.autohub.imageAlt"
+                >
+
+                <span class="case-overlay"></span>
+                <span class="case-play-button"></span>
+            </button>
+
+        </div>
+
+        <div class="case-study-content">
+
+            <p class="case-study-description" data-i18n="cases.autohub.description">
+                За одну неделю подготовил серию из 10 Reels
+                для автомобильного проекта. Выполнил монтаж
+                и финальное оформление каждого ролика для публикации.
+            </p>
+
+            <div class="case-study-meta">
+                <span data-i18n="cases.meta.10videos">10 роликов</span>
+                <span data-i18n="cases.meta.week">1 неделя работы</span>
+                <span data-i18n="cases.meta.turnkey">Монтаж под ключ</span>
+            </div>
+
+        </div>
+
+    </div>
+</article>
+
+                    <!-- =====================================
+     КЕЙС 4 — BAKANOV_94
+====================================== -->
+<article class="case-study-card">
+
+    <header class="case-study-header">
+        <span class="case-study-tag" data-i18n="cases.autoTag">
+            АВТО • REELS
+        </span>
+
+        <div class="case-client-row">
+            <h3 class="case-study-title">
+                <a
+                    class="case-client-link"
+                    href="https://www.instagram.com/bakanov_94/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Открыть профиль bakanov_94 в Instagram"
+                    data-i18n-aria-label="cases.bakanov.profileLabel"
+                >
+                    <span>bakanov_94</span>
+                    <span class="case-client-arrow" aria-hidden="true">↗</span>
+                </a>
+            </h3>
+
+            <span class="case-followers" data-i18n="cases.bakanov.followers">
+                26К подписчиков
+            </span>
+        </div>
+    </header>
+
+    <div class="case-study-body">
+
+        <div class="case-study-media case-study-media--vertical">
+
+            <span class="case-example-label" data-i18n="cases.bakanov.example">
+                Пример одного из 3 роликов
+            </span>
+
+            <button
+                class="case-preview"
+                type="button"
+                data-video="https://www.youtube-nocookie.com/embed/xCW_5BAFo_I"
+                aria-label="Открыть пример ролика bakanov_94"
+                data-i18n-aria-label="cases.bakanov.videoLabel"
+            >
+                <img
+                    src="Photos/preview4.jpg"
+                    alt="Пример ролика для bakanov_94"
+                    data-i18n-alt="cases.bakanov.imageAlt"
+                >
+
+                <span class="case-overlay"></span>
+                <span class="case-play-button"></span>
+            </button>
+
+        </div>
+
+        <div class="case-study-content">
+
+            <p class="case-study-description" data-i18n="cases.bakanov.description">
+                За два дня подготовил три Reels для автомобильного
+                проекта. Полностью выполнил монтаж под ключ: добавил
+                графику, подобрал музыку и оформил саунд-дизайн.
+            </p>
+
+            <div class="case-study-meta">
+                <span data-i18n="cases.meta.3videos">3 ролика</span>
+                <span data-i18n="cases.meta.twoDays">2 дня работы</span>
+                <span data-i18n="cases.meta.turnkey">Монтаж под ключ</span>
+            </div>
+
+        </div>
+
+    </div>
+</article>
+
+                    <!-- =====================================
+     КЕЙС 5 — KOCHEV_MARKETING
+====================================== -->
+<article class="case-study-card">
+
+    <header class="case-study-header">
+        <span class="case-study-tag" data-i18n="cases.marketingTag">
+            МАРКЕТИНГ • REELS
+        </span>
+
+        <div class="case-client-row">
+            <h3 class="case-study-title">
+                <a
+                    class="case-client-link"
+                    href="https://www.instagram.com/kochev_marketing/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Открыть профиль kochev_marketing в Instagram"
+                    data-i18n-aria-label="cases.kochev.profileLabel"
+                >
+                    <span>kochev_marketing</span>
+                    <span class="case-client-arrow" aria-hidden="true">↗</span>
+                </a>
+            </h3>
+
+            <span class="case-followers" data-i18n="cases.kochev.followers">
+                10К подписчиков
+            </span>
+        </div>
+    </header>
+
+    <div class="case-study-body">
+
+        <div class="case-study-media case-study-media--vertical">
+
+            <span class="case-example-label" data-i18n="cases.kochev.example">
+                Пример одного из 10 роликов
+            </span>
+
+            <button
+                class="case-preview"
+                type="button"
+                data-video="https://www.youtube-nocookie.com/embed/emIAJE8YChE"
+                aria-label="Открыть пример ролика kochev_marketing"
+                data-i18n-aria-label="cases.kochev.videoLabel"
+            >
+                <img
+                    src="Photos/preview5.jpg"
+                    alt="Пример ролика для kochev_marketing"
+                    data-i18n-alt="cases.kochev.imageAlt"
+                >
+
+                <span class="case-overlay"></span>
+                <span class="case-play-button"></span>
+            </button>
+
+        </div>
+
+        <div class="case-study-content">
+
+            <p class="case-study-description" data-i18n="cases.kochev.description">
+                В течение месяца подготовил серию из 10 Reels
+                для маркетингового проекта. Полностью выполнил
+                монтаж под ключ: выстроил подачу, добавил графику,
+                подобрал музыку и оформил саунд-дизайн.
+            </p>
+
+            <div class="case-study-meta">
+                <span data-i18n="cases.meta.10videos">10 роликов</span>
+                <span data-i18n="cases.meta.month">1 месяц работы</span>
+                <span data-i18n="cases.meta.turnkey">Монтаж под ключ</span>
+            </div>
+
+        </div>
+
+    </div>
+</article>
+
+
+                    
+
+                </div>
+            </div>
+
+
+            <!-- =====================================
+     ГОРИЗОНТАЛЬНАЯ РАБОТА
+====================================== -->
+<div class="cases-zone selected-work-zone">
+
+    <div class="cases-zone-top">
+        <h2 class="cases-zone-title" data-i18n="cases.selected.heading">
+            Избранная работа
+        </h2>
+    </div>
+
+    <article class="selected-work-card">
+
+        <div class="selected-work-media">
+
+            <button
+                class="case-preview"
+                type="button"
+                data-video="https://www.youtube-nocookie.com/embed/G0q22gWv1MI"
+                aria-label="Открыть ролик для магазина одежды"
+                data-i18n-aria-label="cases.selected.videoLabel"
+            >
+                <img
+                    src="Photos/preview6.jpg"
+                    alt="Ролик для магазина одежды"
+                    data-i18n-alt="cases.selected.imageAlt"
+                >
+
+                <span class="case-overlay"></span>
+                <span class="case-play-button"></span>
+            </button>
+
+        </div>
+
+        <div class="selected-work-content">
+
+            <span class="case-study-tag">
+                SELECTED WORK • HORIZONTAL
+            </span>
+
+            <h3 class="selected-work-title" data-i18n="cases.selected.title">
+                Ролик для магазина одежды
+            </h3>
+
+            <p class="case-study-description" data-i18n="cases.selected.description">
+                Отдельная работа, которая показывает монтаж
+                и графику в горизонтальном формате.
+            </p>
+
+            <div class="case-study-meta">
+                <span data-i18n="cases.selected.meta">
+                    Монтаж • Motion design • Sound design
+                </span>
+            </div>
+
+        </div>
+
+    </article>
+</div>
+
+        </div>
+    </div>
+</section>
 
     <!-- УСЛУГИ -->
-    <section class="page page-services">
-        <div class="page-scroll">
-            <div class="services-container">
+<section class="page page-services">
+    <div class="page-scroll">
+        <div class="services-container">
 
-                <article class="service-panel">
+            <article class="service-panel">
 
-                    <h2 class="service-title">
-                        <span class="service-title-line" data-i18n-html="services.title1">
-                            МОНТА<span class="letter-zh">Ж</span>
-                        </span>
-                        <span class="service-title-line" data-i18n-html="services.title2">
-    ПОД К<span class="letter-l">Л</span>ЮЧ
-</span>
-                    </h2>
+                <h2 class="service-title">
+                    <span
+                        class="service-title-line"
+                        data-i18n-html="services.title1"
+                    >
+                        МОНТА<span class="letter-zh">Ж</span>
+                    </span>
 
-                    <div class="service-list">
+                    <span
+                        class="service-title-line"
+                        data-i18n-html="services.title2"
+                    >
+                        ПОД К<span class="letter-l">Л</span>ЮЧ
+                    </span>
+                </h2>
 
-                        <div class="service-row">
-                            <div class="service-info">
-                                <h3 data-i18n="services.horizontal.title">Графика для горизонтального формата</h3>
-                                <p data-i18n="services.horizontal.price">от 30 000 до 10 000 ₽</p>
-                            </div>
-                            <span class="service-arrow">→</span>
+                <div class="service-list">
+
+                    <div class="service-row">
+                        <div class="service-info">
+                            <h3 data-i18n="services.horizontal.title">
+                                Графика для горизонтального формата
+                            </h3>
                         </div>
 
-                        <div class="service-row">
-                            <div class="service-info">
-                                <h3 class="service-title-accent" data-i18n="services.reels.title">Reels</h3>
-                                <p data-i18n="services.reels.price">от 7 500 до 2 500 ₽</p>
-                            </div>
-                            <span class="service-arrow">→</span>
-                        </div>
-
-                        <div class="service-row">
-                            <div class="service-info">
-                                <h3 data-i18n="services.podcasts.title">Подкасты</h3>
-                                <p data-i18n="services.podcasts.price">от 30 000 до 5 000 ₽</p>
-                            </div>
-                            <span class="service-arrow">→</span>
-                        </div>
-
-                        <div class="service-row">
-                            <div class="service-info">
-                                <h3 data-i18n="services.blogs.title">Блоги / Влоги</h3>
-                                <p data-i18n="services.blogs.price">от 30 000 до 7 500 ₽</p>
-                            </div>
-                            <span class="service-arrow">→</span>
-                        </div>
-
+                        <span class="service-arrow">→</span>
                     </div>
 
-                </article>
+                    <div class="service-row">
+                        <div class="service-info">
+                            <h3
+                                class="service-title-accent"
+                                data-i18n="services.reels.title"
+                            >
+                                Reels
+                            </h3>
+                        </div>
 
-            </div>
+                        <span class="service-arrow">→</span>
+                    </div>
+
+                    <div class="service-row">
+                        <div class="service-info">
+                            <h3 data-i18n="services.podcasts.title">
+                                Подкасты
+                            </h3>
+                        </div>
+
+                        <span class="service-arrow">→</span>
+                    </div>
+
+                    <div class="service-row">
+                        <div class="service-info">
+                            <h3 data-i18n="services.blogs.title">
+                                Блоги / Влоги
+                            </h3>
+                        </div>
+
+                        <span class="service-arrow">→</span>
+                    </div>
+
+                </div>
+
+                <p
+                    class="service-pricing-note"
+                    data-i18n="services.pricingNote"
+                >
+                    Стоимость рассчитываю индивидуально после обсуждения задачи.
+                    Учитываю формат, продолжительность, объём исходников,
+                    сложность графики и сроки.
+                </p>
+
+            </article>
+
         </div>
-    </section>
+    </div>
+</section>
 
 </main>
+
+<!-- УВЕЛИЧЕННЫЙ ВИДЕОПЛЕЕР -->
+<div
+    class="video-modal"
+    id="videoModal"
+    aria-hidden="true"
+>
+    <button
+        class="video-modal-close"
+        id="videoModalClose"
+        type="button"
+        aria-label="Закрыть видео"
+        data-i18n-aria-label="modal.close"
+    >
+        ×
+    </button>
+
+    <div
+        class="video-modal-player"
+        id="videoModalPlayer"
+    ></div>
+</div>
 
 <script>
 const casePreviews = document.querySelectorAll('.case-preview');
 
+const videoModal = document.getElementById('videoModal');
+const videoModalPlayer = document.getElementById('videoModalPlayer');
+const videoModalClose = document.getElementById('videoModalClose');
+let videoModalCloseTimer;
+
+function clearVideoModal() {
+    videoModalPlayer.innerHTML = '';
+    videoModalPlayer.classList.remove('is-vertical');
+}
+
+function openVideoModal(preview) {
+    const videoUrl = preview.dataset.video;
+    const videoTitle = preview.getAttribute('aria-label') || 'YouTube video';
+    const isVerticalVideo = Boolean(
+        preview.closest('.case-study-media--vertical')
+    );
+
+    window.clearTimeout(videoModalCloseTimer);
+
+    const iframe = document.createElement('iframe');
+
+    iframe.src = videoUrl + '?autoplay=1&rel=0&playsinline=1';
+    iframe.title = videoTitle;
+    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen';
+    iframe.allowFullscreen = true;
+    iframe.className = 'video-modal-frame';
+
+    videoModalPlayer.innerHTML = '';
+    videoModalPlayer.classList.toggle('is-vertical', isVerticalVideo);
+    videoModalPlayer.appendChild(iframe);
+
+    videoModal.classList.add('is-open');
+    videoModal.setAttribute('aria-hidden', 'false');
+
+    document.body.classList.add('video-is-open');
+}
+
+function closeVideoModal() {
+    videoModal.classList.remove('is-open');
+    videoModal.setAttribute('aria-hidden', 'true');
+
+    document.body.classList.remove('video-is-open');
+
+    videoModalCloseTimer = window.setTimeout(clearVideoModal, 250);
+}
+
 casePreviews.forEach((preview) => {
     preview.addEventListener('click', () => {
-        const videoUrl = preview.dataset.video;
-        const videoTitle = preview.getAttribute('aria-label') || 'YouTube video';
-
-        const iframe = document.createElement('iframe');
-
-        iframe.src = videoUrl + '?autoplay=1&rel=0';
-        iframe.title = videoTitle;
-        iframe.referrerPolicy = 'strict-origin-when-cross-origin';
-        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-        iframe.allowFullscreen = true;
-        iframe.className = 'case-youtube-frame';
-
-        preview.replaceWith(iframe);
+        openVideoModal(preview);
     });
+});
+
+videoModalClose.addEventListener('click', closeVideoModal);
+
+videoModal.addEventListener('click', (event) => {
+    if (event.target === videoModal) {
+        closeVideoModal();
+    }
+});
+
+document.addEventListener('keydown', (event) => {
+    if (
+        event.key === 'Escape' &&
+        videoModal.classList.contains('is-open')
+    ) {
+        closeVideoModal();
+    }
 });
 
 const translations = {
     ru: {
+        'a11y.mainNav': 'Основная навигация',
+        'a11y.languageSwitch': 'Переключение языка',
+
         'nav.about': 'ОБО МНЕ',
         'nav.cases': 'КЕЙСЫ',
         'nav.services': 'УСЛУГИ',
@@ -335,54 +817,151 @@ const translations = {
         'about.point3': 'Экономлю ваше время',
         'about.socials': 'Соцсети',
 
-        'cases.vertical': 'Вертикальные ролики',
-        'cases.horizontal': 'Горизонтальные ролики',
+        'cases.realTitle': 'Реальные кейсы',
+        'cases.autoTag': 'АВТО • REELS',
+        'cases.marketingTag': 'МАРКЕТИНГ • REELS',
+
+        'cases.vroom.followers': '47К подписчиков',
+        'cases.vroom.example': 'Пример одного из 20 роликов',
+        'cases.vroom.description': 'Серия из 20 роликов для автомобильного проекта. Полностью выполнил монтаж под ключ: графику, подбор музыки, саунд-дизайн и финальное оформление.',
+        'cases.vroom.profileLabel': 'Открыть профиль vroom.club в Instagram',
+        'cases.vroom.videoLabel': 'Открыть пример ролика vroom.club',
+        'cases.vroom.imageAlt': 'Пример ролика для vroom.club',
+
+        'cases.bill.followers': '11К подписчиков',
+        'cases.bill.example': 'Пример одного из 10 роликов',
+        'cases.bill.description': 'Серия из 10 Reels для автомобильного проекта. Полностью выполнил монтаж под ключ: от сборки роликов и графики до подбора музыки и саунд-дизайна.',
+        'cases.bill.profileLabel': 'Открыть профиль bill_avto в Instagram',
+        'cases.bill.videoLabel': 'Открыть пример ролика bill_avto',
+        'cases.bill.imageAlt': 'Пример ролика для bill_avto',
+
+        'cases.autohub.followers': '7К подписчиков',
+        'cases.autohub.example': 'Пример одного из 10 роликов',
+        'cases.autohub.description': 'За одну неделю подготовил серию из 10 Reels для автомобильного проекта. Выполнил монтаж и финальное оформление каждого ролика для публикации.',
+        'cases.autohub.profileLabel': 'Открыть профиль autohubkzn в Instagram',
+        'cases.autohub.videoLabel': 'Открыть пример ролика autohubkzn',
+        'cases.autohub.imageAlt': 'Пример ролика для autohubkzn',
+
+        'cases.bakanov.followers': '26К подписчиков',
+        'cases.bakanov.example': 'Пример одного из 3 роликов',
+        'cases.bakanov.description': 'За два дня подготовил три Reels для автомобильного проекта. Полностью выполнил монтаж под ключ: добавил графику, подобрал музыку и оформил саунд-дизайн.',
+        'cases.bakanov.profileLabel': 'Открыть профиль bakanov_94 в Instagram',
+        'cases.bakanov.videoLabel': 'Открыть пример ролика bakanov_94',
+        'cases.bakanov.imageAlt': 'Пример ролика для bakanov_94',
+
+        'cases.kochev.followers': '10К подписчиков',
+        'cases.kochev.example': 'Пример одного из 10 роликов',
+        'cases.kochev.description': 'В течение месяца подготовил серию из 10 Reels для маркетингового проекта. Полностью выполнил монтаж под ключ: выстроил подачу, добавил графику, подобрал музыку и оформил саунд-дизайн.',
+        'cases.kochev.profileLabel': 'Открыть профиль kochev_marketing в Instagram',
+        'cases.kochev.videoLabel': 'Открыть пример ролика kochev_marketing',
+        'cases.kochev.imageAlt': 'Пример ролика для kochev_marketing',
+
+        'cases.meta.20videos': '20 роликов',
+        'cases.meta.10videos': '10 роликов',
+        'cases.meta.3videos': '3 ролика',
+        'cases.meta.month': '1 месяц работы',
+        'cases.meta.week': '1 неделя работы',
+        'cases.meta.twoDays': '2 дня работы',
+        'cases.meta.turnkey': 'Монтаж под ключ',
+
+        'cases.selected.heading': 'Избранная работа',
+        'cases.selected.title': 'Ролик для магазина одежды',
+        'cases.selected.description': 'Отдельная работа, которая показывает монтаж и графику в горизонтальном формате.',
+        'cases.selected.meta': 'Монтаж • Motion design • Sound design',
+        'cases.selected.videoLabel': 'Открыть ролик для магазина одежды',
+        'cases.selected.imageAlt': 'Ролик для магазина одежды',
 
         'services.title1': 'МОНТА<span class="letter-zh">Ж</span>',
-    'services.title2': 'ПОД К<span class="letter-l">Л</span>ЮЧ',
+        'services.title2': 'ПОД К<span class="letter-l">Л</span>ЮЧ',
 
         'services.horizontal.title': 'Графика для горизонтального формата',
-        'services.horizontal.price': 'от 30 000 до 10 000 ₽',
-
         'services.reels.title': 'Reels',
-        'services.reels.price': 'от 7 500 до 2 500 ₽',
-
         'services.podcasts.title': 'Подкасты',
-        'services.podcasts.price': 'от 30 000 до 5 000 ₽',
-
         'services.blogs.title': 'Блоги / Влоги',
-        'services.blogs.price': 'от 30 000 до 7 500 ₽'
+        'services.pricingNote': 'Стоимость рассчитываю индивидуально после обсуждения задачи. Учитываю формат, продолжительность, объём исходников, сложность графики и сроки.',
+
+        'modal.close': 'Закрыть видео'
     },
 
     en: {
+        'a11y.mainNav': 'Main navigation',
+        'a11y.languageSwitch': 'Language switcher',
+
         'nav.about': 'ABOUT',
         'nav.cases': 'CASES',
         'nav.services': 'SERVICES',
 
         'contact.button': 'DISCUSS<br>PROJECT',
 
-        'about.point1': 'I guarantee the expert packaging of your content',
-        'about.point2': 'I handle all editing tasks for you',
-        'about.point3': 'I save your time',
+        'about.point1': 'I ensure your content is presented professionally',
+        'about.point2': 'I handle every stage of video editing',
+        'about.point3': 'I save you time',
         'about.socials': 'Socials',
 
-        'cases.vertical': 'Vertical videos',
-        'cases.horizontal': 'Horizontal videos',
+        'cases.realTitle': 'Real cases',
+        'cases.autoTag': 'AUTO • REELS',
+        'cases.marketingTag': 'MARKETING • REELS',
+
+        'cases.vroom.followers': '47K followers',
+        'cases.vroom.example': 'One of 20 videos',
+        'cases.vroom.description': 'A series of 20 videos for an automotive project. I handled the entire post-production process: editing, motion graphics, music selection, sound design and final delivery.',
+        'cases.vroom.profileLabel': 'Open the vroom.club Instagram profile',
+        'cases.vroom.videoLabel': 'Open the vroom.club video example',
+        'cases.vroom.imageAlt': 'Video example for vroom.club',
+
+        'cases.bill.followers': '11K followers',
+        'cases.bill.example': 'One of 10 videos',
+        'cases.bill.description': 'A series of 10 Reels for an automotive project. I handled the entire post-production process, from editing and motion graphics to music selection and sound design.',
+        'cases.bill.profileLabel': 'Open the bill_avto Instagram profile',
+        'cases.bill.videoLabel': 'Open the bill_avto video example',
+        'cases.bill.imageAlt': 'Video example for bill_avto',
+
+        'cases.autohub.followers': '7K followers',
+        'cases.autohub.example': 'One of 10 videos',
+        'cases.autohub.description': 'In one week, I produced a series of 10 Reels for an automotive project. I edited and finalized every video for publication.',
+        'cases.autohub.profileLabel': 'Open the autohubkzn Instagram profile',
+        'cases.autohub.videoLabel': 'Open the autohubkzn video example',
+        'cases.autohub.imageAlt': 'Video example for autohubkzn',
+
+        'cases.bakanov.followers': '26K followers',
+        'cases.bakanov.example': 'One of 3 videos',
+        'cases.bakanov.description': 'In two days, I produced three Reels for an automotive project. I handled the entire post-production process, including motion graphics, music selection and sound design.',
+        'cases.bakanov.profileLabel': 'Open the bakanov_94 Instagram profile',
+        'cases.bakanov.videoLabel': 'Open the bakanov_94 video example',
+        'cases.bakanov.imageAlt': 'Video example for bakanov_94',
+
+        'cases.kochev.followers': '10K followers',
+        'cases.kochev.example': 'One of 10 videos',
+        'cases.kochev.description': 'Over one month, I produced a series of 10 Reels for a marketing project. I handled the entire post-production process: structured the presentation, added motion graphics, selected the music and created the sound design.',
+        'cases.kochev.profileLabel': 'Open the kochev_marketing Instagram profile',
+        'cases.kochev.videoLabel': 'Open the kochev_marketing video example',
+        'cases.kochev.imageAlt': 'Video example for kochev_marketing',
+
+        'cases.meta.20videos': '20 videos',
+        'cases.meta.10videos': '10 videos',
+        'cases.meta.3videos': '3 videos',
+        'cases.meta.month': '1 month',
+        'cases.meta.week': '1 week',
+        'cases.meta.twoDays': '2 days',
+        'cases.meta.turnkey': 'Full-service editing',
+
+        'cases.selected.heading': 'Selected work',
+        'cases.selected.title': 'Video for a clothing store',
+        'cases.selected.description': 'A standalone project showcasing editing and motion graphics in a horizontal format.',
+        'cases.selected.meta': 'Editing • Motion design • Sound design',
+        'cases.selected.videoLabel': 'Open the video for a clothing store',
+        'cases.selected.imageAlt': 'Video for a clothing store',
 
         'services.title1': 'VIDEO',
         'services.title2': 'EDITING',
 
-        'services.horizontal.title': 'Graphics for horizontal videos',
-        'services.horizontal.price': 'from $780 to $260',
-
+        'services.horizontal.title': 'Motion graphics for horizontal videos',
         'services.reels.title': 'Reels',
-        'services.reels.price': 'from $195 to $65',
-
         'services.podcasts.title': 'Podcasts',
-        'services.podcasts.price': 'from $780 to $130',
-
         'services.blogs.title': 'Blogs / Vlogs',
-        'services.blogs.price': 'from $780 to $150'
+        'services.pricingNote': 'Pricing is calculated individually after discussing the project. I consider the format, duration, amount of source footage, complexity of motion graphics and deadlines.',
+
+        'modal.close': 'Close video'
     }
 };
 
@@ -406,6 +985,22 @@ function setLanguage(lang) {
 
         if (dictionary[key]) {
             element.innerHTML = dictionary[key];
+        }
+    });
+
+    document.querySelectorAll('[data-i18n-aria-label]').forEach((element) => {
+        const key = element.dataset.i18nAriaLabel;
+
+        if (dictionary[key]) {
+            element.setAttribute('aria-label', dictionary[key]);
+        }
+    });
+
+    document.querySelectorAll('[data-i18n-alt]').forEach((element) => {
+        const key = element.dataset.i18nAlt;
+
+        if (dictionary[key]) {
+            element.alt = dictionary[key];
         }
     });
 
